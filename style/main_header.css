@@ -6,13 +6,12 @@
 }
 
 .logo{
-    margin-left: 10px;
     color: var(--corSemi);
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container{
+header .container{
     display: flex;
     flex-direction: row;
     align-items: center; /* com display flex setado, ele alinha verticalmente ao centro */

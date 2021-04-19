@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8619d922bd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/main_content.css">
     <link rel="stylesheet" href="style/main_header.css">
+
+    <!-- css owl carousel -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>SMARTFLIX</title>
 </head>
 <body>
@@ -24,14 +28,61 @@
 
     <main>
         <div class="filmeTop">
-            <h3 class="titulo">O REINO PROIBIDO</h3>
-            <p class="descricao">The battle for eternity is the fantasy of a lifetime.</p>
-            <p class="sinopse">Jason, um adolescente americano, é um grande fã do cinema de Hong Kong e de velhos filmes de kung-fu. Ao visitar uma loja de penhores em Chinatown, ele descobre a arma de um sábio chinês antigo e guerreiro, o Rei Macaco. A relíquia mágica transporta Jason de volta no tempo e ele se junta a um grupo de lendários artistas marciais em uma missão para libertar um homem preso.</p>
-            <div class="botoes">
-                <button role="button" class="botao"><i class="fas fa-play"></i>ASSISTIR AGORA</button>  <!-- O role DECLARA QUE A TAG button É UM button -->
-                <button role="button" class="botao"><i class="fas fa-file-video"></i>ADICIONAR A LISTA</button>
+            <div class="container">
+                <h3 class="titulo">O REINO PROIBIDO</h3>
+                <p class="descricao">The battle for eternity is the fantasy of a lifetime.</p>
+                <p class="sinopse">Jason, um adolescente americano, é um grande fã do cinema de Hong Kong e de velhos filmes de kung-fu. Ao visitar uma loja de penhores em Chinatown, ele descobre a arma de um sábio chinês antigo e guerreiro, o Rei Macaco. A relíquia mágica transporta Jason de volta no tempo e ele se junta a um grupo de lendários artistas marciais em uma missão para libertar um homem preso.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"><i class="fas fa-play"></i>ASSISTIR AGORA</button>  <!-- O role DECLARA QUE A TAG button É UM button -->
+                    <button role="button" class="botao"><i class="fas fa-file-video"></i>ADICIONAR A LISTA</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrossel-filmes">
+            <div class="owl-carousel owl-theme"> <!-- Nesta div a classe possui uma referencia, onde o owl-theme indica qual o tema deve ser usado, sendo este o padrão -->
+                <div class="item">
+                    <img src="img/mini1.jpg" class="boxFilmes" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini2.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini3.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini4.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini5.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini6.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini7.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini8.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini9.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini10.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/mini11.jpg" class="boxFilmes"  alt="" srcset="">
+                </div>
             </div>
         </div>
     </main>
+
+
+
+    <script src="https://kit.fontawesome.com/8619d922bd.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>

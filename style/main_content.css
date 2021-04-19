@@ -27,7 +27,8 @@ body{
     DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
     background-size: cover;
     font-size: 15px;
-    height: 600px;
+    height: 500px;
+    padding: 1%;
 
     display: flex;
     flex-direction: column;
@@ -35,9 +36,10 @@ body{
     align-items: flex-start;
 }
 
-.titulo{
+.filmeTop .titulo{
     font-size: 40px;
     margin-bottom: 0px;
+    margin-top: 10%;
 }
 
 .filmeTop .descricao{
@@ -46,4 +48,25 @@ body{
 
 .filmeTop .sinopse{
     margin: 30px 0;
+}
+
+.botao{
+    border: 0;
+    margin-right: 10px;
+    padding: 15px 30px;
+    font-size: 11px;
+    background-color: rgba(0,0,0,0.5);
+    color: var(--fontePrincipal);
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: var(--fonteSecundaria);
+}
+
+.botao i{
+    margin-right: 8px;
 }

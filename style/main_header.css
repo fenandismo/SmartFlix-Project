@@ -1,6 +1,8 @@
 :root{
     --corBase: #212121;
     --corSemi: #017bf4;
+    --fontePrincipal: #dfdfdf;
+    --fonteSecundaria: #13a3a3;
 }
 
 .logo{
@@ -19,10 +21,10 @@
 
 .container nav a{
     text-decoration: none;
-    color: #13a3a3;
+    color: var(--fontePrincipal);
     margin-right: 10px;
 }
 
 .container nav a:hover{
-    color: #fff;
+    color: var(--fonteSecundaria);
 }

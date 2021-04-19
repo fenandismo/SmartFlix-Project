@@ -1,15 +1,49 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* VARIAVEIS */
 :root{
     --corBase: #212121;
     --corSemi: #017bf4;
+    --fontePrincipal: #dfdfdf;
+    --fonteSecundaria: #13a3a3;
 }
 
+/* BASE */
 body{
     background-color: var(--corBase);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--fontePrincipal);
+}
+
+/* FILMES */
+
+.filmeTop{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.25)100%), url("../img/capa-oreino.jpg"); /* O linear-gradient COLOCA UMA CAMADA ESCURA NA FRENTE 
+    DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
+    background-size: cover;
+    font-size: 15px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* CENTRALIZA TUDO NO CENTRO DA DIV */
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.filmeTop .descricao{
+    font-size: 20px;
+}
+
+.filmeTop .sinopse{
+    margin: 30px 0;
 }

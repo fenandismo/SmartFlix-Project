@@ -27,7 +27,7 @@ body{
     DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
     background-size: cover;
     font-size: 15px;
-    height: 500px;
+    height: 600px;
 
     display: flex;
     flex-direction: column;
@@ -83,4 +83,8 @@ body{
     width: 100%;
     height: 100%;
     display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;;
 }

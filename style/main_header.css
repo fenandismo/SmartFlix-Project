@@ -1,0 +1,28 @@
+:root{
+    --corBase: #212121;
+    --corSemi: #017bf4;
+}
+
+.logo{
+    margin-left: 10px;
+    color: var(--corSemi);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* com display flex setado, ele alinha verticalmente ao centro */
+    justify-content: space-between; /* com display flex setado, ele alinha os itens com o máximo de espaço */
+}
+
+.container nav a{
+    text-decoration: none;
+    color: #13a3a3;
+    margin-right: 10px;
+}
+
+.container nav a:hover{
+    color: #fff;
+}

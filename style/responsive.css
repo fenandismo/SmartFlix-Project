@@ -8,6 +8,16 @@
         margin-bottom: 5px;
     }
 
+    .destaques .container{
+        display: block;
+    }
+
+    .destaques .container .filmeTop, .serieTop{
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     .botao{
         width: 200px;
     }

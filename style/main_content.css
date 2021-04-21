@@ -22,30 +22,51 @@ body{
 
 /* FILMES */
 
-.filmeTop{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.25)100%), url("../img/oreino_background.jpg"); /* O linear-gradient COLOCA UMA CAMADA ESCURA NA FRENTE 
-    DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
-    background-size: cover;
-    font-size: 15px;
+.destaques .container .filmeTop, .serieTop{
     height: 600px;
-
+    width: 49.7%;
+    padding-top: 150px;
+    padding-left: 15px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* CENTRALIZA TUDO NO CENTRO DA DIV */
-    align-items: flex-start;
+    align-items: flex-start; 
+    background-size: cover;
+    border: 1px solid var(--fontePrincipal);
+    border-radius: 10px;
 }
 
-.filmeTop .titulo{
+.destaques .container .filmeTop:hover, .serieTop:hover{
+    border: 3px solid var(--fonteSecundaria);
+}
+
+.filmeTop{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.25)100%), url("../img/oreino_background.jpg"); /* O linear-gradient COLOCA UMA CAMADA ESCURA NA FRENTE 
+    DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
+}
+
+.serieTop{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.25)100%), url("../img/legados_background.jpg"); /* O linear-gradient COLOCA UMA CAMADA ESCURA NA FRENTE 
+    DA IMAGEM PARA QUE FIQUE UM POUCO APAGADA E DÊ DESTAQUE AO TEXTO*/
+}
+
+.destaques .container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.destaques .titulo{
     font-size: 36px;
     margin-bottom: 0px;
     margin-top: 10%;
 }
 
-.filmeTop .descricao{
+.destaques .descricao{
     font-size: 16px;
 }
 
-.filmeTop .sinopse{
+.destaques .sinopse{
     margin: 22px 0;
 }
 
@@ -75,10 +96,6 @@ body{
     margin-right: 8px;
 }
 
-.container{
-    margin-left: 1%;
-}
-
 .boxFilmes{
     width: 100%;
     height: 100%;
@@ -87,4 +104,16 @@ body{
 
 .carrossel-filmes{
     margin-top: 5px;
+}
+
+.item img{
+    margin-top: 10px;
+    max-width: auto%;
+    max-height: 70%;
+    border: 5px solid var(--fontePrincipal);
+    border-radius: 10px;
+}
+
+.item img:hover{
+    border: 2px solid var(--fonteSecundaria);
 }
